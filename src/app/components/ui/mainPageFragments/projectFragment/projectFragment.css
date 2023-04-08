@@ -1,0 +1,18 @@
+.first-card {
+  background-image: url('../../../../images/projects/projectImg/fresh.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.second-card {
+  background-image: url('../../../../images/projects/projectImg/berger.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.third-card {
+  background-image: url('../../../../images/projects/projectImg/fast.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
