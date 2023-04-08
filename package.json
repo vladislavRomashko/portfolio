@@ -1,6 +1,6 @@
 {
   "homepage": "https://https://vladislavromashko.github.io/portfolio/",
-  "name": "portf",
+  "name": "portfolio-typescript-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
