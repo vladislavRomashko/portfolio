@@ -13,7 +13,7 @@ const ProjectFragment = () => {
   };
 
   const projectClasses =
-    'w-24 sm:w-32 lg:w-56 h-32 sm:h-44 lg:h-64   rounded-md cursor-pointer grayscale  hover:grayscale-0 hover:transition-all hover:scale-125 ';
+    'w-20 sm:w-32 lg:w-56 h-32 sm:h-44 lg:h-64   rounded-md cursor-pointer grayscale  hover:grayscale-0 hover:transition-all hover:scale-125 ';
 
   return (
     <>
@@ -23,14 +23,14 @@ const ProjectFragment = () => {
         data-delay="400"
       >
         <Tags secondTag="h2">
-          <h2 className="text-3xl sm:text-4xl lg:text-6xl text-slate-200 pl-6 sm:pl-16 font-prompt">
+          <h2 className="text-3xl sm:text-4xl lg:text-6xl text-slate-200 pl-8 sm:pl-16 font-prompt">
             <span className="text-sky-500">#</span> My Proj
             <span className="text-sky-500">ec</span>ts
           </h2>
         </Tags>
 
         <Tags secondTag="p">
-          <p className="text-slate-200 font-roboto pl-8 text-sm sm:text-base sm:pl-16 relative z-20">
+          <p className="text-slate-200 font-roboto pl-6 text-sm sm:text-base sm:pl-16 relative z-20">
             Here some of my works.You can click on it for more details
           </p>
         </Tags>

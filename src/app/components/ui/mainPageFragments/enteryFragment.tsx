@@ -93,23 +93,25 @@ const EnteryFragment = () => {
           </div>
         </div>
       </Tags>
-      <Tags secondTag="p">
-        <div className="ml-8 sm:ml-16 text-lg sm:text-xl lg:text-3xl tracking-widest  text-slate-400 ">
-          Front End developer
-        </div>
-      </Tags>
+      <div className="mt-8">
+        <Tags secondTag="p">
+          <div className="ml-8 sm:ml-16 text-lg sm:text-xl lg:text-3xl tracking-widest  text-slate-400 ">
+            Front End developer
+          </div>
+        </Tags>
+      </div>
       <button className="  border-sky-500 sm:text-2xl ml-10 mt-10  sm:ml-16 sm:mt-14 lg:mt-10 hover:text-pink-500/100 hover:border-pink-500/100  text-sky-500 border-2">
         <a href="mailto:vadimromashko@gmail.com" className="px-14 py-4 block">
           Contact Me!
         </a>
       </button>
 
-      <div className="animate-bounce absolute text-sm flex  flex-col text-slate-400  bottom-36 left-5">
+      <div className="animate-bounce absolute text-sm flex  flex-col text-slate-400  bottom-12 left-5">
         <span className=" rotate-90">Scroll </span>
         <br />
         <span className="text-center text-sky-500">&#9660;</span>
       </div>
-      <div className="animate-bounce absolute text-sm flex flex-col text-slate-400  bottom-36 right-5">
+      <div className="animate-bounce absolute text-sm flex flex-col text-slate-400  bottom-12 right-5">
         <span className="block rotate-90">Scroll</span>
         <br />
         <span className="text-center text-sky-500">&#9660;</span>
